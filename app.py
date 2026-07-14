@@ -18,7 +18,7 @@ import streamlit as st
 from database import init_db, save_results, load_history, DB_FILE
 
 # The address of our own backend service.
-API_URL = "http://127.0.0.1:8000/analyze"
+API_URL = "https://customer-feedback-analyzer-genai.onrender.com/analyze"
 
 # Make sure the table exists before the app uses it.
 init_db()
